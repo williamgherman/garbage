@@ -34,5 +34,3 @@ sudo cp programname /usr/bin/programname
 
 NB: Programs that could potentially rewrite system programs are renamed (e.g.,
 `myecho` instead of `echo`).
-rps
-tempcalc
