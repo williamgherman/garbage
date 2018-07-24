@@ -12,12 +12,14 @@ Garbage is a repository of useless toy programs and basic `coreutils` clones.
 | `getsize`        | prints terminal rows/cols to stdout |
 | `passgen`        | diceware password generator         |
 | `rps`            | rock, paper, scissors game          |
+| `snek`           | ncurses snake game
 | `tempcalc`       | temperature converter               |
 
 ## Dependencies
 
-`getsize` requires a `curses` implementation like `ncurses` or similar.
-`passgen` requires `sodium`.
+`getsize` and `snek` require a `curses` implementation like `ncurses` or
+similar.  
+`passgen` requires `sodium`.  
 
 ## Installation
 
