@@ -12,8 +12,9 @@ Garbage is a repository of useless toy programs and basic `coreutils` clones.
 | `getsize`        | prints terminal rows/cols to stdout |
 | `passgen`        | diceware password generator         |
 | `rps`            | rock, paper, scissors game          |
-| `snek`           | ncurses snake game
+| `snek`           | ncurses snake game                  |
 | `tempcalc`       | temperature converter               |
+| `yes`            | coreutils `yes` clone               |
 
 ## Dependencies
 

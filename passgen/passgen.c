@@ -68,6 +68,7 @@ int main(int argc, char **argv)
         exit(EXIT_FAILURE);
     }
     lines = move_to_line(fp, RAND_MAX);
+    /* returns total number of lines in fp or RAND_MAX */
 
     for (i = 0; i < words; i++)
         print_line(fp, randombytes_uniform(lines));

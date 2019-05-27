@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -Wpedantic -std=c99 -lncurses
+CFLAGS=-Wall -Wextra -Wpedantic -std=gnu11 -lncurses
 
 snek: snek.o
 	$(CC) -o snek snek.o $(CFLAGS)
