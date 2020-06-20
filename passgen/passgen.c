@@ -53,7 +53,7 @@ int main(int argc, char **argv)
     int lines;
     if (argc != 2)
     {
-        fprintf(stderr, 
+        fprintf(stderr,
                 "Usage: %s [NUMBER OF WORDS]\n"
                 "       [NUMBER OF WORDS] is the number of words or phrases\n"
                 "       to be selected from the Diceware Beale list. A\n"
@@ -73,7 +73,7 @@ int main(int argc, char **argv)
     for (i = 0; i < words; i++)
         print_line(fp, randombytes_uniform(lines));
     putchar('\n');
-    
+
     fclose(fp);
     exit(EXIT_SUCCESS);
 }

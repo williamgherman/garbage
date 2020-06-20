@@ -7,6 +7,7 @@ Garbage is a repository of useless toy programs and basic `coreutils` clones.
 | **Program Name** | **Description**                     |
 | :--------------- | :---------------------------------- |
 | `cat`            | coreutils `cat` clone               |
+| `cp`             | coreutils `cp` clone                |
 | `echo`           | coreutils `echo` clone              |
 | `fizz`           | modular FizzBuzz                    |
 | `getsize`        | prints terminal rows/cols to stdout |
