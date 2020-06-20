@@ -19,6 +19,8 @@ int main(int argc, char **argv)
 
     while ((c = fgetc(fpin)) != EOF)
         fprintf(fpout, "%c", c);
+    fclose(fpin);
+    fclose(fpout);
 
     exit(EXIT_SUCCESS);
 }
