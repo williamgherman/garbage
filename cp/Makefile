@@ -5,7 +5,7 @@ uninstall: /usr/bin/mycp
 	sudo rm -f /usr/bin/mycp
 
 install: cp
-	sudo cp cat /usr/bin/mycp
+	sudo cp cp /usr/bin/mycp
 
 cp: cp.o
 	$(CC) -o cp cp.o $(CFLAGS)
